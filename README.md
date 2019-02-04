@@ -1,4 +1,4 @@
-##Pomodoro
+Pomodoro
 
 This is an exercise to apprehend reactjs. 
 
