@@ -1,0 +1,158 @@
+body {
+  background-color: #181818;
+  margin : auto;
+
+}
+
+@keyframes App-logo-coming {
+  from {
+    transform: translateX(-180px);
+  }
+  to {
+    transform: translateX(3px);
+  }
+}
+
+ @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Major+Mono+Display');
+
+img {
+  animation: App-logo-coming 10s ;
+  width : 180px;
+
+}
+
+h1 {
+      position : absolute;
+      margin-left: 490px;
+      font-family: 'Major Mono Display', monospace;
+      color : #d7383a;
+
+
+}
+
+.timer {
+  position : absolute;
+  margin: auto;
+  text-align: center;
+  width : 100%;
+}
+
+.clock{
+
+
+  margin: auto;
+  width : 50%;
+  font-family: 'Major Mono Display', monospace;
+
+}
+
+.buttons{
+  width: 10%;
+  position : absolute;
+  display: flex;
+  margin-left: 100px;
+}
+
+.plus {
+  margin: auto;
+  width : 100%;
+  padding:0.35em 1.2em;
+  border : none;
+  text-decoration:none;
+  background-color: #181818;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 20px;
+  color:#d7383a;
+  text-align:center;
+  transition: all 0.2s;
+    margin: 0px 20px 20px 20px;
+
+}
+
+.plus:hover{
+  background-color: #d7383a;
+  color:#181818;
+  border:0.1em solid #d7383a;
+
+
+}
+
+.minus{
+  margin: auto;
+  width : 100%;
+  padding:0.35em 1.2em;
+  border : none;
+  border-radius: 2px;
+  text-decoration:none;
+  background-color: #181818;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 20px;
+  color:#d7383a;
+  text-align:center;
+  transition: all 0.2s;
+  margin: 0px 20px 20px 20px;}
+
+.minus:hover{
+  background-color: #d7383a;
+  color:#181818;
+   border:0.1em solid #d7383a;
+}
+
+.start{
+  margin: auto;
+  width : 100%;
+  padding:0.35em 1.2em;
+  border : none;
+  border-radius: 2px;
+  text-decoration:none;
+  background-color: #181818;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 20px;
+  color:#d7383a;
+  text-align:center;
+  transition: all 0.2s;
+  margin: 0px 20px 20px 20px;
+
+}
+
+.start:hover{
+  background-color: #d7383a;
+  color:#181818;
+    border:0.1em solid #d7383a;
+
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+
+h1 {
+
+
+}
+
+.Timer {
+  display : grid;
+  grid-template-columns : 80% 20%;
+  grid-template-rows: 25% 25% 25% 25%;
+}
+
+p{
+
+  color : white;
+  font-size: 100px;
+}
